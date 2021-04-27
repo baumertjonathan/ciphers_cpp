@@ -21,9 +21,11 @@ The hill cipher is a substitution cipher based on linear alebra, each letter is 
 
 ## rail-fence cipher
 The rail-fence cipher is a type of transposition cipher. Each letter is taken and written in a zig zag fashion based on a numerical key, for example a message of 'hello there' with a key of 3 could be transposed as so:
+```
 h . . . o . . . r .
 . e . l . t . e . e
 . . l . . . h . . .
+```
 which is then read from left to right providing the following ciphertext: 'horelteelh'
 [Wikipedia](https://en.wikipedia.org/wiki/Rail_fence_cipher)
 
