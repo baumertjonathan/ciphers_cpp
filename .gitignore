@@ -34,3 +34,6 @@
 # Others
 Debug/
 ciphers/
+*.filters
+*.user
+*.vcxproj
